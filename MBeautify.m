@@ -40,7 +40,7 @@ classdef MBeautify
             
             MBeautify.writeConfigurationFile(MBeautify.readSettingsXML());
             
-            fprintf('Configuration was successfully exported to:\n%s\n', MBeautify.RulesMFileFull);
+            % fprintf('Configuration was successfully exported to:\n%s\n', MBeautify.RulesMFileFull);
             MBeautify.parsingUpToDate(false);
         end
         
